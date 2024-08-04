@@ -92,6 +92,7 @@ class StandardSuggestionsBox extends StatelessWidget {
             color: Colors.transparent,
             child: ListView.builder(
               itemCount: suggestions.length,
+              padding: EdgeInsets.zero,
               itemBuilder: (context, index) {
                 return InkWell(
                   hoverColor: hoverColor,
